@@ -1,47 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="shortcut icon" href=favicon.ico>
+<title>Page Title</title>
+<style>
+#myDIV {
+  width: 300px;
+  height: 200px;
+  background: red;
+  animation: mymove 5s infinite;
+}
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-
-
-<title>OblazhenHTML</title>
-
-
+@keyframes mymove {
+  50% {background-color: blue;}
+}
+</style>
 </head>
+
 <body>
 
-  <body style="background-color:powderblue;">
-
-
-  <h1 style="color:blue;">A Blue Heading</h1>
-
-  <p style="color:red;">A red paragraph.</p>
-
-
-<h1>This is a Heading</h1>
-<p title="This is tooltip for this paragraph">This is paragraph with tooltip.</p>
 
 
 
-<p>This is the simple paragraph.</p>
 
-<h1>This is heading 1</h1>
-<h2>This is heading 2</h2>
-<h3>This is heading 3</h3>
-<h4>This is heading 4</h4>
-<h5>This is heading 5</h5>
-<h6>This is heading 6</h6>
-
+<body style="background-color:rgba(245,245,245);">
+<hr>
+<h1>This is a Heading Size 1</h1>
+<h1 style="color:blue;"A Blue Heading Size 1</h1>
+<h2>This is a Heading Size 2</h2>
 <h2 title="I'm a header">The title Attribute</h2>
+<h3>This is a Heading Size 3</h3>
+<h4>This is a Heading Size 4</h4>
+<h5>This is a Heading Size 5</h5>
+<h6>This is a Heading Size 6</h6>
 
-<p title="I'm a tooltip">Mouse over this paragraph, to display the title attribute as a tooltip.</p>
+<hr>
+
+<p>I am normal.</p>
+<p style="color:red;">I am red.</p>
+<p title="This is tooltip for this paragraph">This is paragraph with tooltip.</p>
+<p style="color:blue;">I am blue</p>
+<p style="font-size:20px;">I am big:font-size:20px</p>
 
 <hr>
 
@@ -67,41 +66,44 @@
 
 <h2>HTML Links</h2>
 <p>HTML links are defined with the a tag:</p>
-
 <a href="https://www.w3schools.com">This is a link</a>
+
 <hr>
+
+
 <h2>HTML Buttons</h2>
 <p>HTML buttons are defined with the button tag:</p>
-
 <button>Click me</button>
+
 <hr>
+
+
 <h2>HTML Images</h2>
 <p>HTML images are defined with the img tag:</p>
 <img src="img_girl.jpg" alt="Girl with a jacket" width="500" height="600">
 
-
-<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
-
 <hr>
-<h1>Align image with CSS</h1>
 
+<h1>Align image with CSS</h1>
 <h2>vertical-align: bottom</h2>
 <p>This is some text. <img src="smiley.gif" alt="Smiley face" width="42" height="42" style="vertical-align:bottom"> This is some text. This is some text. This is some text.</p>
-
 <h2>vertical-align: middle</h2>
 <p>This is some text. <img src="smiley.gif" alt="Smiley face" width="42" height="42" style="vertical-align:middle"> This is some text. This is some text. This is some text.</p>
-
 <h2>vertical-align: top</h2>
 <p>This is some text. <img src="smiley.gif" alt="Smiley face" width="42" height="42" style="vertical-align:top"> This is some text. This is some text. This is some text.</p>
-
 <h2>float: right</h2>
 <p>This is some text. <img src="smiley.gif" alt="Smiley face" width="42" height="42" style="float:right">This is some text. This is some text. This is some text.</p>
-
 <h2>float: left</h2>
 <p>This is some text. <img src="smiley.gif" alt="Smiley face" width="42" height="42" style="float:left">This is some text. This is some text. This is some text.</p>
 
+<hr>
+
+<h1>Animation of background-color</h1>
+<p>Gradually change the background-color from red to blue, and back to red:<p>
+<div id="myDIV"></div>
 
 <hr>
+
 <h2>Video</h2>
 
 <video width="320" height="240" controls>
